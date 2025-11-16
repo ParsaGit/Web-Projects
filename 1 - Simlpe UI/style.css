@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(228, 223, 223);
+}
+.card{
+    background-color: white;
+    width: 45%;
+    height: 400px;
+    border-radius: 20px 20px 80px 20px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 45px 20px 35px 20px;
+    font-family: system-ui;
+    overflow: auto;
+}
+
+.label{
+    letter-spacing: 5;
+    color: #8c8282;
+    font-size: 10PX;
+    font-weight: bold;
+}
+
+.btn{
+    margin-top: 7px;
+    border: solid #b6b1b1 1px;
+    color: #8c8282;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15;
+    width: 100%;
+}
+
+.input_div{
+    width: 20%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.line_circle{
+    width: 100%;
+}
+
+hr{
+    width: 70%;
+    margin: 40 5 20 20;
+    display: inline-block;
+    vertical-align: 11px;
+}
+
+.circle{
+    width: 65px;
+    height: 65px;
+    background-color: #7e4ffe;
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: 10px;
+}
+
+.check{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.show_input{
+    margin-left: 20px;
+    font-size: 57px;
+    margin-top: 10px;
+    font-style: italic;
+    margin-bottom: -14px;
+}
+
+.spans{
+    color: #7e4ffe;
+}
+
+
+@media (max-width: 768px) {
+    .card {    
+        width: 90%;
+        height: auto; 
+        margin-top: 5%;
+        padding: 30px 20px;
+        padding-bottom: 45px;
+    }
+    .input_div {
+        width: 100%; 
+        margin: 10px auto; 
+    }
+    .label {
+        font-size: 8px; 
+    }
+    .btn {
+        font-size: 16px; 
+        padding: 10px;
+    }
+    .show_input {
+        font-size: 40px; 
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .check{
+        width: 100%;
+        margin-top: 8px;
+    }
+}
+
